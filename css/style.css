@@ -8521,7 +8521,7 @@ h1, h2, h3, h4, h5,
   .owl-carousel.home-slider {
     position: relative;
     height: 750px;
-    right: 20px;
+    display: flex;
     justify-content: center;
     z-index: 0;
     background: #dbcc8f; }
