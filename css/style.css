@@ -8520,15 +8520,16 @@ h1, h2, h3, h4, h5,
         background: #b3b3b3; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 500px;
     preventDefaultSwipeY: false;
     z-index: 0;
     background: #dbcc8f; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
+      preventDefaultSwipeY: false;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 750px;
+      height: 500px;
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
@@ -8543,7 +8544,7 @@ h1, h2, h3, h4, h5,
         opacity: 1;
         z-index: -1; }
       .owl-carousel.home-slider .slider-item .slider-text {
-        height: 750px;
+        height: 500px;
         z-index: 0; }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
@@ -8571,7 +8572,7 @@ h1, h2, h3, h4, h5,
                 opacity: 0; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-forth {
           position: relative;
-          height: 750px; }
+          height: 500px; }
           @media (min-width: 992px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
               position: absolute;
